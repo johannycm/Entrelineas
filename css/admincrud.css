@@ -1,0 +1,116 @@
+body {
+    background-image: url(./../fondo/kenny-eliason-OjxsirfohHU-unsplash.jpg);
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilo para el enlace que actúa como logo */
+.logo-link {
+    color: #ffffff; /* Color blanco para el texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 20px; /* Tamaño del texto */
+    display: flex; /* Para alinear el ícono y el texto */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.logo-link:hover {
+    opacity: 0.8; /* Opacidad al pasar el ratón */
+}
+
+.logo-link .bi {
+    font-size: 24px; /* Tamaño del icono */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+    color: #ffffff; /* Color blanco para el icono */
+}
+
+#addButton, #limpiarButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #3c4147;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#addButton:hover {
+    background-color:  #151414;
+}
+
+#LimpiarButton:hover {
+    background-color:  #151414;
+}
+
+
+#userList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#userList li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.actions .btn-edit {
+    background-color: #151414;
+    color: #fff;
+}
+
+.actions .btn-edit:hover {
+    background-color: #151414;
+}
+
+.actions .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.actions .btn-delete:hover {
+    background-color: #c82333;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}

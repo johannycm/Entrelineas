@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Menú de Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./../css/productoscrud.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="./../index.html" class="logo-link">
+            <h2 class="bi bi-arrow-bar-left">Entrelíneas</h2>
+        </a>
+    <header>
+        <h1 class="bi bi-back"> Nuestros Productos</h1>
+    </header>
+    <div class="contenedor-productos" id="menu-products">
+        <!-- Aquí se mostrarán los productos -->
+    </div>
+
+    <div class="form-container">
+        <h2>Administrar Productos</h2>
+        <form id="form-product">
+            <input type="hidden" id="product-id">
+            <label for="product-titulo">Título:</label>
+            <input type="text" id="product-titulo" required>
+            <label for="product-imagen">URL Imagen:</label>
+            <input type="text" id="product-imagen" required>
+            <label for="product-categoria">Categoría:</label>
+            <input type="text" id="product-categoria" required>
+            <label for="product-precio">Precio:</label>
+            <input type="number" id="product-precio" required>
+            <button type="submit">Guardar Producto</button>
+            <button type="button" onclick="cancelEdit()"> Cancelar </button>
+        </form>
+    </div>
+
+    <script src="./../js/main.js"></script>
+    <script src="./../js/productos.json"></script>
+    <script src="./../js/productoscrud.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    
+</body>
+</html>

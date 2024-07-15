@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Entrelíneas - Librería</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./views/usuario.html">Libros</a></li>
+                    <li><a href="">Actividades</a></li>
+                </ul>
+            </nav>
+            <div class="user-tab">
+                <a href="./views/usuario.html" id="usuario" class="bi bi-emoji-smile-fill">  Usuario</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="bi bi-book-half "> Entrelíneas</h1>
+                <h3>¡Descubre mundos entre páginas!</h3>
+                <h3>¡Compra tus próximas aventuras literarias aquí!</h3>
+                <a href="./views/usuario.html"><button class="buy-button">Compra aquí</button></a>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <h2>Libros destacados</h2>
+                <div  data-aos="fade-right" data-aos-duration="1000" class="gallery-item" >
+                    <img src="././fondo/assets/aseinatoprincipiantes.jpg" alt="Libro 1">
+                </div>
+                <div  data-aos="fade-right" data-aos-duration="1000" class="gallery-item">
+                    <img src="././fondo/assets/pajaroscantores.jpg" alt="Libro 2">
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="gallery-item">
+                    <img src="././fondo/assets/rivales.jpg" alt="Libro 3">
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="gallery-item">
+                    <img src="./fondo/assets/thetall.jpg" alt="Libro 3">
+                </div>
+            </div>
+        </section>
+        <section class="info-icons">
+            <div class="container">
+                <h2>Actividades</h2>
+                <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">¡Descubre los destacados de este mes en libros, eventos y mucho más. Mantente al día con las últimas</p>
+                <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">novedades literarias, emocionantes actividades y eventos imperdibles!</p>
+                
+                <div data-aos="zoom-in" class="info-item">
+                    <img src="./fondo/icon1.png" alt="Icono 1">
+                    <p class="bi bi-magic">Novedades literarias</p>
+                </div>
+                <div data-aos="zoom-in" class="info-item">
+                    <img src="./fondo/icon2.png" alt="Icono 2">
+                    <p class="bi bi-book-fill">  Recomendaciones de lectura</p>
+                </div>
+                <div data-aos="zoom-in" class="info-item bi">
+                    <img src="./fondo/icon3.png" alt="Icono 3">
+                    <p class="bi bi-balloon-fill">Eventos literarios</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p> Proudly built with tremendo flow &copy; 2024 </p>
+        </div>
+    </footer>
+    <script src="./js/home.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
+</body>
+</html>

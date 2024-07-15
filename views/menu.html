@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrelíneas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/diseño.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Entrelíneas</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <a href="./../index.html">
+                <h1 class="logo">Entrelíneas</h1></a>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-bookmark-star-fill"></i> Todos los géneros</button>
+                    </li>
+                    <li>
+                        <button id="fantasia" class="boton-menu boton-categoria"><i class="bi bi-bookmark-star-fill"></i>Fantasía</button>
+                    </li>
+                    <li>
+                        <button id="thriller" class="boton-menu boton-categoria"><i class="bi bi-bookmark-star-fill"></i>Thriller</button>
+                    </li>
+                    <li>
+                        <button id="distopia" class="boton-menu boton-categoria"><i class="bi bi-bookmark-star-fill"></i>Distopía</button>
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito"></span>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="textofooter">Tremendoflow © 2024</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los géneros</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+            
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./../js/productos.json"></script>
+    <script src="./../js/main.js"></script>
+    <script src="./../js/menu.js"></script>
+    <script src="./../js/productoscrud.js"></script>
+
+
+    
+</body>
+</html>

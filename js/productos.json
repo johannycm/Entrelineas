@@ -1,0 +1,205 @@
+[
+    {
+        "id": "libro-01",
+        "titulo": "Rivales Divinos",
+        "imagen": "./../fondo/assets/rivales.jpg",
+        "categoria": {
+            "nombre": "Fantasia",
+            "id": "fantasia"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "libro-02",
+        "titulo": "Las Pruebas de Apollo",
+        "imagen": "./../fondo/assets/laspruebas.jpg",
+        "categoria": {
+            "nombre": "Fantasia",
+            "id": "fantasia"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "libro-03",
+        "titulo": "Siega",
+        "imagen": "./../fondo/assets/siega.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 18000
+    },
+    {
+        "id": "libro-04",
+        "titulo": "Nimbo",
+        "imagen": "./../fondo/assets/nimbo.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "Distopia"
+        },
+        "precio": 19000
+    },
+    {
+        "id": "libro-05",
+        "titulo": "The toll",
+        "imagen": "./../fondo/assets//thetall.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 19000
+    },
+    {
+        "id": "libro-06",
+        "titulo": "Asesinato para principiantes",
+        "imagen": "./../fondo/assets/aseinatoprincipiantes.jpg",
+        "categoria": {
+            "nombre": "Thriller",
+            "id": "thriller"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "libro-07",
+        "titulo": "Desaparición para expertos",
+        "imagen": "./../fondo/assets/desaparicion.jpg",
+        "categoria": {
+            "nombre": "Thriller",
+            "id": "thriller"
+        },
+        "precio": 21000
+    },
+    {
+        "id": "libro-08",
+        "titulo": "Venganza para las victimas",
+        "imagen": "./../fondo/assets/venganza.jpg",
+        "categoria": {
+            "nombre": "Thriller",
+            "id": "thriller"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "libro-09",
+        "titulo": "El engaño",
+        "imagen": "./../fondo/assets/elengano.jpg",
+        "categoria": {
+            "nombre": "Thriller",
+            "id": "thriller"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "libro-10",
+        "titulo": "Los Juegos del Hambre",
+        "imagen": "./../fondo/assets/losjuegos.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 23000
+    },
+    {
+        "id": "libro-11",
+        "titulo": "En llamas",
+        "imagen": "./../fondo/assets/enllamas.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 17000
+    },
+    {
+        "id": "libro-12",
+        "titulo": "Sinsajo",
+        "imagen": "./../fondo/assets/sinsajo.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 16000
+    },
+    {
+        "id": "libro-13",
+        "titulo": "Camiseta 08",
+        "imagen": "./../fondo/assets/pajaroscantores.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 21000
+    },
+    {
+        "id": "libro-14",
+        "titulo": "El reino Maldito",
+        "imagen": "./../fondo/assets/elreino.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 21000
+    },
+    {
+        "id": "libro-15",
+        "titulo": "¿De quien te escondes?",
+        "imagen": "./../fondo/assets/teescondes.jpg",
+        "categoria": {
+            "nombre": "Thriller",
+            "id": "thriller"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "libro-16",
+        "titulo": "Desconexión",
+        "imagen": "./../fondo/assets/desconexion.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "libro-17",
+        "titulo": "Inconexion",
+        "imagen": "./../fondo/assets/inconexion.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "libro-18",
+        "titulo": "Conexion",
+        "imagen": "./../fondo/assets/conexion.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 21000
+    },
+
+    {
+        "id": "libro-19",
+        "titulo": "Reconexion",
+        "imagen": "./../fondo/assets/reconexion.jpg",
+        "categoria": {
+            "nombre": "Distopia",
+            "id": "distopia"
+        },
+        "precio": 28000
+    },
+    
+    {
+        "id": "Libro-20",
+        "titulo": "El hijo dorado",
+        "imagen": "./../fondo/assets/laspruebas2.jpg",
+        "categoria": {
+            "nombre": "Fantasia",
+            "id": "fantasia"
+        },
+        "precio": 21000
+    }
+]
+
